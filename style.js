@@ -18,7 +18,11 @@ $(document).ready(function(){
 		$('#rent-out-menu').css('width', '20%');
 		$('#rent-menu').css('width', '1%');
 	});
-	$('#exit').click(function() {
+	$('#rent-menu .exit').click(function() {
+		$('#rent-out-menu').css('width', '1%');
+		$('#rent-menu').css('width', '1%');
+	});
+	$('#rent-out-menu .exit').click(function() {
 		$('#rent-out-menu').css('width', '1%');
 		$('#rent-menu').css('width', '1%');
 	});
