@@ -8,46 +8,40 @@
 </head>
 <body>
 
-	<div id="loader-wrapper">
-	    <div id="loader"></div>
-	    <div class="loader-section section-left"></div>
-	    <div class="loader-section section-right"></div>
-	</div>
-
-	<div id="select"> <br> <br>
-		<a href="#" id="rent" class="btn btn-2">
+	<div id="select-box">
+		<a href="#" id="rent" class="btn btn-fx">
 			Find a place
 		</a>
-		<a href="#" id="rent-out" class="btn btn-2">
+		<a href="#" id="rent-out" class="btn btn-fx">
 			Rent out
 		</a>
 	</div>
 
 	<div id="rent-menu">
 		<div class="spacer-big"></div>
-		<div class="rent-menu">1</div>
+		<a href="#msg"><div class="rent-menu"> <span class='rent-txt menu-txt'>Messages</span> </div></a>
 		<div class="spacer"></div>
-		<div class="rent-menu">2</div>
+		<a href="#wsl"><div class="rent-menu"> <span class='rent-txt menu-txt'>Wishlist</span> </div></a>
 		<div class="spacer"></div>
-		<div class="rent-menu">3</div>
+		<a href="#pfl"><div class="rent-menu"> <span class='rent-txt menu-txt'>My profile</span> </div></a>
 		<div class="spacer"></div>
-		<div class="rent-menu">4</div>
+		<a href="#stg"><div class="rent-menu"> <span class='rent-txt menu-txt'>Search settings</span> </div></a>
 		<div class="spacer"></div>
-		<div class="rent-menu-exit">Exit this menu</div>
+		<div class="exit rent-menu-exit"> <span class='rent-txt menu-txt'>Exit this menu</span> </div>
 		<div class="spacer-big"></div>
 	</div>
 
 	<div id="rent-out-menu">
 		<div class="spacer-big"></div>
-		<div class="rent-out-menu">1</div>
+		<a href="#rgs"><div class="rent-out-menu"> <span class='rent-out-txt menu-txt'>Register my listing</span> </div></a>
 		<div class="spacer"></div>
-		<div class="rent-out-menu">2</div>
+		<a href="#msg"><div class="rent-out-menu"> <span class='rent-out-txt menu-txt'>Messages</span> </div></a>
 		<div class="spacer"></div>
-		<div class="rent-out-menu">3</div>
+		<a href="#pfl"><div class="rent-out-menu"> <span class='rent-out-txt menu-txt'>My profile</span> </div></a>
 		<div class="spacer"></div>
-		<div class="rent-out-menu">4</div>
+		<a href="#tos"><div class="rent-out-menu"> <span class='rent-out-txt menu-txt'>Terms of service</span> </div></a>
 		<div class="spacer"></div>
-		<div class="rent-out-menu-exit">Exit this menu</div>
+		<div class="exit rent-out-menu-exit"> <span class='rent-out-txt menu-txt'>Exit this menu</span> </div>
 		<div class="spacer-big"></div>
 	</div>
 
